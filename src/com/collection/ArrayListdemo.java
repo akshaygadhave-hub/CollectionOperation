@@ -12,7 +12,12 @@ public class ArrayListdemo {
 		arrayList.add("Rohan");
 		arrayList.add("Nikhil");
 		
-		System.out.println(arrayList);
+		//System.out.println(arrayList);
+		
+		for(String str: arrayList)
+		{
+			System.out.println(str);
+		}
 	}
 	
 }
