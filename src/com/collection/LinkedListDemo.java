@@ -13,7 +13,11 @@ public class LinkedListDemo {
 		list.add(30);
 		list.add(40);
 		
-		System.out.println(list);
+		//System.out.println(list);
+		for(Integer str: list)
+		{
+			System.out.println(str);
+		}
 		
 	}
 
